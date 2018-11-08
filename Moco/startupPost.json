@@ -1,0 +1,34 @@
+[
+  {
+    "description":"模拟一个post请求",
+    "request":{
+      "uri":"/postdemo",
+      "cookies":{
+        "login":"true"
+      }
+    },
+    "response":{
+      "text":"这是我的第一个post请求"
+    }
+  },
+  {
+    "description":"带参数的post请求",
+    "request":{
+      "uri":"/postwithparam",
+      "method":"post",
+      "headers":{
+        "content-type":"application/json"
+      },
+      "forms":{
+        "name":"huhansan",
+        "age":"18"
+      }
+    },
+
+    "response":{
+      "text":"我胡汉三又来了！！！！",
+      "status":"200"
+    }
+
+  }
+]
