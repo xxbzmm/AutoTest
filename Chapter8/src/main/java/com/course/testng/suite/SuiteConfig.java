@@ -6,6 +6,7 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 
 public class SuiteConfig {
+    //测试共有的东西，如登录
     @BeforeSuite
     public void beforeSuite(){
         System.out.println("before suite运行啦！");

@@ -2,8 +2,6 @@ package com.course.testng.suite;
 
 import org.testng.annotations.Test;
 
-import java.util.concurrent.ExecutionException;
-
 public class TimeOutTest {
     @Test(timeOut = 3000)
     public void testSuccess() throws InterruptedException {

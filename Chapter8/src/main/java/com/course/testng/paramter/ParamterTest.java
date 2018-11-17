@@ -4,6 +4,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class ParamterTest {
+    //参数化，需要xml配置数据
     @Test
     @Parameters({"name","age"})
     public void paramTest1(String name,int age){

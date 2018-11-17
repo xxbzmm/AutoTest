@@ -1,6 +1,8 @@
 package com.course.testng.groups;
 
-import org.testng.annotations.*;
+import org.testng.annotations.AfterGroups;
+import org.testng.annotations.BeforeGroups;
+import org.testng.annotations.Test;
 
 public class GroupsOnMathod {
     //组测试中的方法分组
